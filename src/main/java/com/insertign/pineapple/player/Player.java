@@ -1,10 +1,17 @@
 package com.insertign.pineapple.player;
 
-public class Player {
-    private String uuid;
-    private String username;
+import org.json.JSONObject;
 
-    public Player(String uuid) {
-        this.uuid = uuid;
+public class Player {
+
+    private JSONObject JSONPlayerObject;
+    
+    private String username;
+    private String uuid;
+
+    public Player(JSONObject JSONPlayerObject) {
+        this.JSONPlayerObject = JSONPlayerObject;
     }
+
+
 }
