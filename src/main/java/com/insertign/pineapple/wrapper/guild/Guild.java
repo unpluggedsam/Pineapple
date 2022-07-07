@@ -7,10 +7,10 @@ import java.util.List;
 
 public class Guild {
 
-    private JSONObject JSONPlayerObject;
+    private JSONObject JSONGuildObject;
 
-    public Guild(JSONObject JSONPlayerObject) {
-        this.JSONPlayerObject = JSONPlayerObject;
+    public Guild(JSONObject JSONGuildObject) {
+        this.JSONGuildObject = JSONGuildObject;
     }
 
     private String getName() {
