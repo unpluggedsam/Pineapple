@@ -1,5 +1,6 @@
 package com.insertign.pineapple.wrapper.player;
 
+import com.insertign.pineapple.wrapper.guild.Guild;
 import org.json.JSONObject;
 
 import java.util.List;
@@ -41,6 +42,10 @@ public class Player {
 
     public boolean isActive() {
         return false;
+    }
+
+    public Guild guildGetCurrentGuild() {
+        return null;
     }
 
 }
